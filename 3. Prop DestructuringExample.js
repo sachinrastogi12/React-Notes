@@ -33,6 +33,9 @@ function ParentComponent() {
   }
 
 // In this example, we have a parent component called ParentComponent that defines an object called user containing several properties such as name, age, occupation, and hobbies.
-// We then pass this user object down to the child component ChildComponent as a prop called user. Inside the ChildComponent, we use prop destructuring to extract the properties name, age, occupation, and hobbies from the user prop.
-// We can then use these extracted properties directly in our JSX markup to display the user's information. The hobbies property is an array, so we use the map() function to loop through each hobby and render a list item for each one.
-// Prop destructuring is a convenient and readable way to extract specific properties from a prop object passed down to a component. It can help make our code more concise and easier to read, especially when we have complex data structures being passed as props.
+// We then pass this user object down to the child component ChildComponent as a prop called user. Inside the ChildComponent, we use prop destructuring to extract the properties 
+//name, age, occupation, and hobbies from the user prop.
+// We can then use these extracted properties directly in our JSX markup to display the user's information. The hobbies property is an array, 
+// so we use the map() function to loop through each hobby and render a list item for each one.
+// Prop destructuring is a convenient and readable way to extract specific properties from a prop object passed down to a component. 
+// It can help make our code more concise and easier to read, especially when we have complex data structures being passed as props.
